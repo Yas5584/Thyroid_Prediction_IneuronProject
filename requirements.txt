@@ -1,0 +1,9 @@
+pandas 
+numpy 
+matplotlib
+seaborn 
+scikit-learn
+flask
+flask_sqlalchemy
+bcrypt
+-e .
