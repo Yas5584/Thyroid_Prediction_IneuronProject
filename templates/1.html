@@ -129,10 +129,10 @@
 						<div class="form-group files color">
 							<input type="text" name = "csvfile" id="csvfile" class="form-control" placeholder="Enter absolute file path." required>
 						</div>
-						<div class=""><button class="form-control btn-primary" id="customfile">Bulk Prediction Using Custom File</button></div>
+						<div class=""><button class="form-control btn-primary" id="customFileBtn">Bulk Prediction Using Custom File</button></div>
 						<!--<br/><center><b>Or</b></center><br/> -->
 						<hr>
-						<button class="form-control btn-primary mb-5" id="defaultfile" data-path = "Prediction_Batch_files">
+						<button class="form-control btn-primary mb-5" id="defaultFileBtn" data-path = "Prediction_Batch_files">
 							Bulk Prediction Using Default File
 						</button>
 						<hr>
@@ -174,37 +174,52 @@
 		</div>
 	</footer>
 	<script>
-	document.getElementById('customFileBtn').addEventListener('click', () => {
-		const filePath = document.getElementById('filePathInput').value;
-		if (filePath) {
-		  console.log('Custom File Path:', filePath); // Debug log
-		  fetch('/predict-custom', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ file_path: filePath }),
-		  })
-			.then((response) => response.json())
-			.then((data) => {
-			  document.getElementById('results').innerText = JSON.stringify(data);
-			})
-			.catch((error) => console.error('Error:', error));
-		} else {
-		  alert('Please enter the file path!');
-		}
-	  });
-	  
-	  document.getElementById('defaultFileBtn').addEventListener('click', () => {
-		console.log('Default file prediction triggered'); // Debug log
-		fetch('/predict-default', {
-		  method: 'GET',
-		})
-		  .then((response) => response.json())
-		  .then((data) => {
-			document.getElementById('results').innerText = JSON.stringify(data);
-		  })
-		  .catch((error) => console.error('Error:', error));
-	  });
-	  
+	document.getElementById('customFileBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    const filePath = document.getElementById('csvfile').value;
+    
+    if (!filePath) {
+        alert('Please enter a file path!');
+        return;
+    }
+
+    fetch('/predict-custom', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `filepath=${encodeURIComponent(filePath)}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        const resultDiv = document.querySelector('.json-result');
+        if(data.error) {
+            resultDiv.innerHTML = `<p class="text-danger">Error: ${data.error}</p>`;
+        } else {
+            resultDiv.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+
+document.getElementById('defaultFileBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    
+    fetch('/predict-default', {
+        method: 'POST'
+    })
+    .then(response => response.json())
+    .then(data => {
+        const resultDiv = document.querySelector('.json-result');
+        if(data.error) {
+            resultDiv.innerHTML = `<p class="text-danger">Error: ${data.error}</p>`;
+        } else {
+            resultDiv.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+	  </script>
 	
 </body>
 

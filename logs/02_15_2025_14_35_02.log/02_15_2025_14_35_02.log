@@ -1,0 +1,10 @@
+[ 2025-02-15 14:35:07,991 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-15 14:35:08,012 ] 97 werkzeug - INFO -  * Debugger PIN: 624-488-097
+[ 2025-02-15 14:35:08,529 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:35:08] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:35:12,161 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:35:12] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:35:15,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:35:15] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:35:18,416 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:35:18] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:42:08,644 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:42:08] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:42:11,739 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:42:11] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:42:17,187 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:42:17] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 15:31:35,643 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ys136\\Desktop\\Data Science\\End to End ML Projects\\thyroid_Prediction_System\\app.py', reloading

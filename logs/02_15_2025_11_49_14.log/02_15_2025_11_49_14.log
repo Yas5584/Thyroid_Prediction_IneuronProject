@@ -1,0 +1,25 @@
+[ 2025-02-15 11:49:19,713 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-15 11:49:19,730 ] 97 werkzeug - INFO -  * Debugger PIN: 624-488-097
+[ 2025-02-15 11:49:58,249 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 11:49:58] "GET / HTTP/1.1" 200 -
+[ 2025-02-15 11:50:09,917 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 11:50:09] "GET /login HTTP/1.1" 200 -
+[ 2025-02-15 11:50:10,856 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 11:50:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-02-15 11:50:26,402 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 11:50:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2025-02-15 11:50:26,597 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 11:50:26] "GET /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:14:00,380 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:14:00] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:14:07,561 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:14:07] "GET /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:14:11,379 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:14:11] "GET /login HTTP/1.1" 200 -
+[ 2025-02-15 12:14:25,743 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:14:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2025-02-15 12:14:25,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:14:25] "GET /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:15:03,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:03] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:15:06,290 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:15:06] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-15 12:27:44,293 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:27:44] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:30:04,126 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:30:04] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:30:10,398 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:30:10] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:33:06,100 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:33:06] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:33:28,378 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:33:28] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:33:31,207 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:33:31] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 12:33:34,427 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 12:33:34] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:22:00,429 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:22:00] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:22:04,619 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:22:04] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:22:07,867 ] 97 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 14:22:07] "POST /frontpage HTTP/1.1" 200 -
+[ 2025-02-15 14:31:13,238 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ys136\\Desktop\\Data Science\\End to End ML Projects\\thyroid_Prediction_System\\app.py', reloading

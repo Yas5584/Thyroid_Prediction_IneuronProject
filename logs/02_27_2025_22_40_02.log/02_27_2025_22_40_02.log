@@ -1,0 +1,31 @@
+[ 2025-02-27 22:40:12,849 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-27 22:40:12,901 ] 97 werkzeug - INFO -  * Debugger PIN: 624-488-097
+[ 2025-02-27 22:41:50,238 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:41:50] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:42:05,188 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:42:05,324 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:42:05] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:42:07,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:42:07] "[33mPOST /predict_bulk HTTP/1.1[0m" 404 -
+[ 2025-02-27 22:42:18,521 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:42:18] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:43:00,590 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:43:01,144 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:43:01] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:43:07,335 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:43:07] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:43:11,957 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:43:11] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:43:26,624 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:43:26,740 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:43:26] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:44:42,562 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:44:42,913 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:44:42] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:44:49,644 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:44:49] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:45:03,918 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:45:04,067 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:45:04] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:45:44,949 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:45:45,366 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:45:45] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:45:49,678 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:45:49] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:46:01,633 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:46:01,782 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:46:01] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:47:27,057 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:47:27,441 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:47:27] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:47:28,454 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:47:28] "GET /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:50:56,062 ] 82 root - INFO - DataFrame Gathered
+[ 2025-02-27 22:50:56,364 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:50:56] "POST /predict_datapoint HTTP/1.1" 200 -
+[ 2025-02-27 22:51:05,781 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:51:05] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 22:51:11,352 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:51:11] "POST /predict-default HTTP/1.1" 200 -
+[ 2025-02-27 22:53:52,221 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ys136\\Desktop\\Data Science\\End to End ML Projects\\thyroid_Prediction_System\\app.py', reloading

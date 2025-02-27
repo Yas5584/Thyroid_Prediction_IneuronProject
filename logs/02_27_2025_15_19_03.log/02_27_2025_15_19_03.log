@@ -1,0 +1,30 @@
+[ 2025-02-27 15:19:08,456 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-27 15:19:08,475 ] 97 werkzeug - INFO -  * Debugger PIN: 624-488-097
+[ 2025-02-27 15:19:09,423 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:09,523 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:09,551 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:09,590 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:09,629 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:09,691 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:09,863 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:09] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,034 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,075 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,215 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,257 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,294 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,431 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,496 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,536 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:10,600 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:10] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:12,868 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:12] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:13,064 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:13] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:13,266 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:13] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:13,398 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:13] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:13,539 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:13] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:13,844 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:13] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:14,024 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:14] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:14,095 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:14] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:14,316 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:14] "[35m[1mPOST /predict-default HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:19:16,217 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:19:16] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 15:59:15,489 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 15:59:15] "[35m[1mPOST /predict-custom HTTP/1.1[0m" 500 -
+[ 2025-02-27 16:05:46,969 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ys136\\Desktop\\Data Science\\End to End ML Projects\\thyroid_Prediction_System\\app.py', reloading

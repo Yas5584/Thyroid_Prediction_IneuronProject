@@ -1,0 +1,4 @@
+[ 2025-02-27 22:39:16,236 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-27 22:39:16,268 ] 97 werkzeug - INFO -  * Debugger PIN: 624-488-097
+[ 2025-02-27 22:39:18,272 ] 97 werkzeug - INFO - 127.0.0.1 - - [27/Feb/2025 22:39:18] "POST /predict-default HTTP/1.1" 200 -
+[ 2025-02-27 22:39:53,799 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\ys136\\Desktop\\Data Science\\End to End ML Projects\\thyroid_Prediction_System\\app.py', reloading
