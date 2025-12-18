@@ -7,3 +7,4 @@ flask
 flask_sqlalchemy
 bcrypt
 -e .
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
