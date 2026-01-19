@@ -7,3 +7,4 @@ flask
 flask_sqlalchemy
 bcrypt
 -e .
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
